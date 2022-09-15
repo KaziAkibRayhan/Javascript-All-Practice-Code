@@ -2,6 +2,7 @@
 var waterBottlePrice = 176;
 // Set a value 
 waterBottlePrice = 180;
+console.log(waterBottlePrice);
 
 // String Type Variable
 var waterBottleColor = 'red';
