@@ -9,9 +9,25 @@ let baladIndex = friendName.indexOf('Kolad');
 friendName[baladIndex] = 'Lolad';
 console.log(friendName);
 
+// Add last Element array
 
-friendName[1] = 'Calad'; // Change Index
+friendName.push('Alal Mia');
+console.log(friendName);
+friendName.push('Jamal Mia');
 console.log(friendName);
 
+// Remove Last Element array
 
+friendName.pop();
+console.log(friendName);
 
+// Add First element array
+
+friendName.unshift("Codur Uddin");
+friendName.unshift("Kodor Uddin");
+console.log(friendName);
+
+// Remove First Element Array
+
+friendName.shift();
+console.log(friendName);
