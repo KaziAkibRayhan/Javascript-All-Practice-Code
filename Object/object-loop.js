@@ -23,5 +23,8 @@ for (let i = 0; i < userProperties.length; i++) {
 
 for (const propertyName in user) {
     const value = user[propertyName];
-    console.log(propertyName, value);
+    // console.log(propertyName, value);
 }
+
+const useritem = Object.entries(user);
+console.log(useritem);
